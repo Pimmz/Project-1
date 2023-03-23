@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=PT+Serif&display=swap');
+
+body {
+    font-family: pt serif, sans-serif; 
+    font-weight: 300;
+}
+
+#menu {
+    padding: 30px;
+    background: #b4b4b4;
+    word-spacing: 20px;
+    font-size: 35px;
+}
