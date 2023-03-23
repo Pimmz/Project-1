@@ -1,13 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=PT+Serif&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+ }
+ 
+ 
 body {
     font-family: pt serif, sans-serif; 
     font-weight: 300;
 }
 
 #menu {
-    padding: 30px;
+    padding: 25px;
     background: #b4b4b4;
     word-spacing: 20px;
     font-size: 35px;
+}
+
+.footer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    background-color: #b4b4b4;
+    color: #fff;
+    min-height: 120px;
+    padding-top: 20px;
 }
