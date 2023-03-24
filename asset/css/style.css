@@ -14,22 +14,33 @@ body {
 
 #menu {
     padding: 25px;
-    background: #b4b4b4;
+    background: grey;
     word-spacing: 20px;
-    font-size: 35px;
-}
-
-.footer {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    font-size: 30px;
 }
 
 footer {
-    background-color: #b4b4b4;
-    color: #fff;
     min-height: 120px;
-    padding-top: 20px;
+    padding-top: 10px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-size: 20px;
 }
+
+#the-footer > p:first-child {
+    float: left;
+    text-align: left;
+    width: 33.3%; }
+
+#the-footer > p:nth-child(2) {
+    float: left;
+    text-align: center;
+    width: 33.4%;
+    }
+
+#the-footer > p:last-child {
+    float: right;
+    text-align: center;
+    width: 33.3%;
+    }
