@@ -13,8 +13,8 @@ body {
 }
 
 #menu {
-    padding: 15px;
-    background: #0D0D10;
+    padding-left: 15px;
+    background: rgb(0,0,0,0.9);
     word-spacing: 20px;
     font-size: 30px;
     font-family: fira;
@@ -24,7 +24,7 @@ body {
 footer {
     min-height: 120px;
     padding-top: 10px;
-    background-color: #0D0D10;
+    background-color: rgb(0,0,0,0.9);
     color: #fff4f3;
     text-align: center;
     font-size: 20px;
@@ -47,6 +47,21 @@ footer {
     width: 33.3%;
     }
 
+#cover-text > h1 { 
+    font-size: 150px;
+    text-transform: uppercase;
+    color:#fff4f3;
+    font-family: fira;
+}
+
+#cover-text > h3 {
+    color:#fff4f3;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+
+
 #dog-image {
     height: 800px;
     width: 100%;
@@ -58,4 +73,17 @@ footer {
     margin:auto;
     padding:0;
     
+}
+
+#cover-text {
+    
+    letter-spacing: 4px;
+    width: 700px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    top: 120px;
+    left :20px;
+    position: absolute;
+
 }
