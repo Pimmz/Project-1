@@ -19,19 +19,43 @@
         <a href="index.html"></a>
 
             <nav class="menu">
-                <a href="index.html" class="active" style="color:#fff4f3">Home</a>
-                <a href="services.html" class="active" style="color:#fff4f3">Services</a>
-                <a href="contact.html" class="active"style="color: #fff4f3">Contact</a>
-                <a href="reviews.html" class="active" style="color:#fff4f3">Reviews</a>
-            </nav> 
-    
-        
-       
-
+                <a href="index.html" class="active" style="color:#fff4f3"><i class="fas fa-home"></i>Home</a>
+                <a href="services.html" class="active" style="color:#fff4f3"><i class="fas fa-hands-helping"></i>Services</a>
+                <a href="contact.html" class="active"style="color: #fff4f3"><i class="fas fa-phone"></i>Contact</a>
+                <a href="reviews.html" class="active" style="color:#fff4f3"><i class="fas fa-pen"></i>Reviews</a>
+            </nav>
     </header>
     <Section>
-        <div>contact goes here</div>
+        <div id="map"></div>
+        <div id="address">
+            <h3>Walkies!</h3>
+            <p>Park Road,Ware, Hertfordshire, SG120AN<br><i class="fas fa-envelope"></i>Walkies@gmail.com <i class="fas fa-phone"></i>01234 567890</p>
+            
+        </div>
     </Section>
+    <section>
+        <div>
+            <form action="https://formdump.codeinstitute.net/" method="post">
+                
+                <h1>Send us a email if you prefer.</h1>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first_name" required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last_name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required>
+                <input type="submit" value="Submit">
+            </form>
+            
+                <label for="feedback">How can we improve your experience with us?</label>
+                <br>
+                <textarea id="feedback" rows="2" cols="225" placeholder="Your feedback"></textarea>
+
+            
+        </div>
+    </section>
 
 
     <footer class="the-footer">
