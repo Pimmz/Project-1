@@ -19,7 +19,7 @@ body {
     background: rgb(0,0,0,0.9);
     word-spacing: 20px;
     font-size: 22px;
-    font-family: fira, sans-serif;
+    font-family: pt serif, sans-serif;
     font-weight: 600;
 }
 
@@ -53,7 +53,7 @@ footer {
     font-size: 150px;
     text-transform: uppercase;
     color:#fff4f3;
-    font-family: fira, sans-serif;
+    font-family: pt serif, sans-serif;
 }
 
 #cover-text > h3 {
@@ -181,4 +181,66 @@ textarea { border: 2px solid black;
     font-size: 30px;
     font-weight: 900;
     font-family: pt serif, sans-serif;
+    background-color: #dfdfdf;
+}
+#form {
+    background-color: #dfdfdf;
+}
+#dogs-image { 
+    height: 700px;
+    width: 100%;
+    background: url('/images/dogs.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+#services {
+    background-color: #dfdfdf;
+}
+#services > h1 {
+    font-family: pt serif, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+#services > h3 {
+    font-family: pt serif, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#walking > h1, #boarding > h1 {
+    font-family: pt serif, sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+}
+#walking {
+    letter-spacing: 4px;
+    width: 40%;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 20px;
+    top: 120px;
+    left :100px;
+    position: absolute;
+    font-family: pt serif, sans-serif;
+    font-size: 18px;
+    text-align: left;
+
+}
+#boarding {
+    letter-spacing: 4px;
+    width: 40%;
+    height: 200px;
+    padding-top: 10px;
+    padding-right: 20px;
+    top: 120px;
+    right :100px;
+    position: absolute;
+    font-family: pt serif, sans-serif;
+    text-align: right;
+    font-size: 18px;
+}
+#walking > h4, #walking >h4 {
+    font-family: pt serif, sans-serif;;
 }
