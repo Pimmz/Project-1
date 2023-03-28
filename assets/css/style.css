@@ -74,7 +74,7 @@ footer {
 #dog-image {
     height: 765px;
     width: 100%;
-    background: url('/images/dog running.jpg');
+    background: url('../images/dog_running.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -135,7 +135,7 @@ footer {
   #map{
     height: 650px;
     width: 100%;
-    background: url('/images/google_map.jpg');
+    background: url('../images/google_map.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -189,7 +189,7 @@ textarea { border: 2px solid black;
 #dogs-image { 
     height: 700px;
     width: 100%;
-    background: url('/images/dogs.jpg');
+    background: url('../images/dogs.jpg');
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
@@ -242,5 +242,5 @@ textarea { border: 2px solid black;
     font-size: 18px;
 }
 #walking > h4, #walking >h4 {
-    font-family: pt serif, sans-serif;;
+    font-family: pt serif, sans-serif;
 }
