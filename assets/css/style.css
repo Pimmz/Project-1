@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=PT+Serif&display=swap');
 
 * {
     margin: 0;
@@ -23,7 +23,7 @@ a, nav > menu {
     background: rgb(0,0,0,0.9);
     word-spacing: 20px;
     font-size: 22px;
-    font-family: pt serif, sans-serif;
+    font-family: pt serif, oswald, sans-serif;
     font-weight: 600;
 }
 
@@ -57,7 +57,9 @@ footer {
     font-size: 150px;
     text-transform: uppercase;
     color:#fff4f3;
-    font-family: pt serif, sans-serif;
+    font-family: sans-serif;
+    padding-left: 40px;
+
 }
 
 #cover-text > h3 {
