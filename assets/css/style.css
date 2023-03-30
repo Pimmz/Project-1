@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
  }
  
  
@@ -11,7 +12,10 @@ body {
     font-family: pt serif, sans-serif; 
     font-weight: 300;
 }
+a, nav > menu {
+    color:#fff4f3;
 
+}
 .menu {
     height: 40px;
     padding-top: 5px;
@@ -111,9 +115,6 @@ footer {
     margin: 0;
     padding: 0;
 }
-* {
-    box-sizing: border-box;
-  }
   
   .column {
     float: left;
