@@ -30,7 +30,7 @@ a, nav > menu {
 }
 
 footer {
-    min-height: 120px;
+    min-height: 140px;
     padding-top: 10px;
     background-color: rgb(0,0,0,0.9);
     color: #fff4f3;
@@ -146,7 +146,7 @@ footer {
 /*contact page to set images and text*/
 
   #map{
-    height: 650px;
+    height: 600px;
     width: 100%;
     background: url('../images/google_map.jpg');
     background-size: cover;
@@ -154,20 +154,19 @@ footer {
     background-position: center center;
     text-align:center;
     margin:auto;
+    padding:0;
 }
 /*form text and layout*/
-input[type=text] {
+#form {
+    background-color: #dfdfdf;
+}
+input[type=text],input[type=email]   {
     border: 2px solid black;
     border-radius: 4px;
     font-size: 20px;
     font-family: pt serif, oswald, sans-serif; 
 }
-input[type=email] {
-    border: 2px solid black;
-    border-radius: 4px;
-    font-size: 20px;
-    font-family: pt serif, oswald, sans-serif; 
-}
+
 label {
     font-size: 20px;
 }
@@ -180,8 +179,9 @@ input {
 }
 textarea { border: 2px solid black;
     border-radius: 4px;
-    font-size: 15px;
+    font-size: 20pxpx;
     font-family: pt serif, oswald, sans-serif; 
+    width: 100%;
 }
 #address{
     letter-spacing: 4px;
@@ -189,17 +189,15 @@ textarea { border: 2px solid black;
     height: 200px;
     padding-bottom: 90px;
     padding-left: 30px;
-    bottom: 400px;
-    left :100px;
+    top: 50px;
+    left :0px;
     position: absolute;
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 25px;
+    font-weight: 600;
     font-family: pt serif, oswald, sans-serif; 
     background-color: #dfdfdf;
 }
-#form {
-    background-color: #dfdfdf;
-}
+
 /*services page to set image and text*/
 #dogs-image { 
     height: 700px;
@@ -289,8 +287,15 @@ textarea { border: 2px solid black;
         left: 0px;}
     #boarding {
         font-size: 16px;
-         right: 0px;   }
-}
+        right: 0px;   }
+    #address {
+        font-size: 25px;
+        width: 400px;
+        height: 240px;
+        left: 0px;}
+    footer {
+        min-height: 180px;}
+    }
 /* for medium from 1200px wide and down */
 @media screen and (max-width:1200px) {
     #benefits {
@@ -302,7 +307,14 @@ textarea { border: 2px solid black;
         font-size: 90px;}
     #walking, #boarding {
         width: 48%;}
-   
+    #address {
+        font-size: 20px;
+        width: 300px;
+        height: 240px;
+        left: 0px;}
+    #map{
+        height: 675px;}
+    
     }
 
 /* for medium from 1050px wide and down */
@@ -321,5 +333,13 @@ textarea { border: 2px solid black;
         text-align: left;}
     #walking, #boarding {
         text-align: left;
-        font-size: 12px;}
+        font-size: 12px;} 
+    footer {
+        min-height: 200px;}
     }
+/* for small from 800px wide and down */
+@media screen and (max-width:800px) {
+    footer {
+        min-height: 220px;
+        font-size: 17px;}
+}
