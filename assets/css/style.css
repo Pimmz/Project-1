@@ -239,7 +239,7 @@ textarea { border: 2px solid black;
     left :100px;
     position: absolute;
     font-family: pt serif, oswald, sans-serif; 
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
 
 }
@@ -254,7 +254,7 @@ textarea { border: 2px solid black;
     position: absolute;
     font-family: pt serif, oswald, sans-serif; 
     text-align: right;
-    font-size: 18px;
+    font-size: 20px;
 }
 #walking > h4, #walking >h4 {
     font-family: pt serif, oswald, sans-serif; 
@@ -271,7 +271,9 @@ textarea { border: 2px solid black;
         font-size: 25px;}
     #dog-image {
         height: 740px;}
-    }
+    
+    
+}
 /* for medium from 1400px wide and down */
 
 @media screen and (max-width:1400px) {
@@ -280,9 +282,15 @@ textarea { border: 2px solid black;
         height: 400px;
         position: absolute;}
     #cover-text {
-            width: 500px;
-            height: 200px;}
-    }
+        width: 500px;
+        height: 200px;}
+    #walking { 
+        font-size: 16px;
+        left: 0px;}
+    #boarding {
+        font-size: 16px;
+         right: 0px;   }
+}
 /* for medium from 1200px wide and down */
 @media screen and (max-width:1200px) {
     #benefits {
@@ -292,6 +300,9 @@ textarea { border: 2px solid black;
         }
     #cover-text > h1 {
         font-size: 90px;}
+    #walking, #boarding {
+        width: 48%;}
+   
     }
 
 /* for medium from 1050px wide and down */
@@ -305,6 +316,10 @@ textarea { border: 2px solid black;
         font-size: 20px; }
     #cover-text > h1 {
         font-size: 70px;} 
-    
-
+    #walking > h1, #boarding > h1 {
+        font-size: 20px;
+        text-align: left;}
+    #walking, #boarding {
+        text-align: left;
+        font-size: 12px;}
     }
