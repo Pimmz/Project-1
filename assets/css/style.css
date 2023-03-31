@@ -82,7 +82,7 @@ footer {
     font-size: 15px;
 }
 #dog-image {
-    height: 765px;
+    height: 600px;
     width: 100%;
     background: url('../images/dog_running.jpg');
     background-size: cover;
@@ -266,16 +266,12 @@ textarea { border: 2px solid black;
 
 @media screen and (max-width:1600px) {
     #cover-text > h1 {
-        font-size: 125px;
-    }
-}
+        font-size: 125px;}
     #cover-text > h3 {
-        font-size: 25px;
-    }
-    
+        font-size: 25px;}
     #dog-image {
-        height: 740px;
-}
+        height: 740px;}
+    }
 /* for medium from 1400px wide and down */
 
 @media screen and (max-width:1400px) {
@@ -292,8 +288,8 @@ textarea { border: 2px solid black;
     #benefits {
         width: 160px;
         position: absolute;
-        padding-top: 60px;}
-    #cover-text > h1 {
-            font-size: 90px;
+        padding-top: 65px;
         }
+    #cover-text > h1 {
+        font-size: 90px;}
     }
