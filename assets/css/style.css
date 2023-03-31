@@ -82,7 +82,7 @@ footer {
     font-size: 15px;
 }
 #dog-image {
-    height: 600px;
+    height: 765px;
     width: 100%;
     background: url('../images/dog_running.jpg');
     background-size: cover;
@@ -292,4 +292,19 @@ textarea { border: 2px solid black;
         }
     #cover-text > h1 {
         font-size: 90px;}
+    }
+
+/* for medium from 1050px wide and down */
+@media screen and (max-width:1050px) {
+    #benefits {
+        display: none;}
+    #cover-text {
+        top: 20px;
+        left :0;}
+    #cover-text > h3 {
+        font-size: 20px; }
+    #cover-text > h1 {
+        font-size: 70px;} 
+    
+
     }
