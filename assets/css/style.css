@@ -122,7 +122,7 @@ footer {
     margin: 0;
     padding: 0;
 }
-  
+/* review page to set images and text*/
   .column {
     float: left;
     width: 20%;
@@ -140,6 +140,7 @@ footer {
     padding-left: 30px;
     padding-top: 20px;
   }
+/*contact page to set images and text*/
   #map{
     height: 650px;
     width: 100%;
@@ -150,6 +151,7 @@ footer {
     text-align:center;
     margin:auto;
 }
+/*form text and layout*/
 input[type=text] {
     border: 2px solid black;
     border-radius: 4px;
@@ -194,6 +196,7 @@ textarea { border: 2px solid black;
 #form {
     background-color: #dfdfdf;
 }
+/*services page to set image and text*/
 #dogs-image { 
     height: 700px;
     width: 100%;
