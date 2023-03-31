@@ -262,4 +262,22 @@ textarea { border: 2px solid black;
 
 /* media queries */
 
-/* for mobile devices */
+/* for larger size from 1600px wide and down */
+
+@media screen and (max-width:1600px) {
+    #cover-text > h1 {
+        font-size: 125px;
+    }
+}
+    #cover-text > h3 {
+        font-size: 25px;
+    }
+    
+    #dog-image {
+        height: 740px;
+}
+/* for medium from 1400px wide and down */
+
+@media screen and (max-width:1400px) {
+
+}
