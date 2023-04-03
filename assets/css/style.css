@@ -131,8 +131,8 @@ footer {
     float: left;
     width: 20%;
     padding: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .row::after {
@@ -291,7 +291,12 @@ textarea { border: 2px solid black;
     
     footer {
         min-height: 180px;}
+    
+    .column {
+        width: 25%;
     }
+}
+
 /* for medium from 1200px wide and down */
 @media screen and (max-width:1200px) {
     #benefits {
@@ -329,6 +334,7 @@ textarea { border: 2px solid black;
     footer {
         min-height: 200px;}
     }
+    
 
 /* for small from 800px wide and down */
 @media screen and (max-width:800px) {
@@ -338,7 +344,8 @@ textarea { border: 2px solid black;
     
     input[type=text],input[type=email], label, input  {
         font-size: 20px;}
-    
+    .column {
+            width: 33%;}
 }
 /* for small from 500px wide and down */
 @media screen and (max-width:500px) {
@@ -382,7 +389,8 @@ textarea { border: 2px solid black;
     #address {
         width: 320px;
         height: 170px;
-        font-size: 20px;
-    }
+        font-size: 20px;}
+    .column {
+        width: 50%;}
     
 }
