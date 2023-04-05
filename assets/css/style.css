@@ -350,7 +350,9 @@ textarea { border: 2px solid black;
     .column {
         width: 33%;}
     #address {
-        font-size: 20px;}
+        font-size: 20px;
+        width: 320px;
+        height: 170px;}
 }
 /* for small from 500px wide and down */
 @media screen and (max-width:500px) {
@@ -394,7 +396,7 @@ textarea { border: 2px solid black;
     #address {
         width: 320px;
         height: 170px;
-        font-size: 20px;}
+        font-size: 18px;}
     .column {
         width: 50%;}
     
