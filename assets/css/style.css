@@ -283,11 +283,13 @@ textarea { border: 2px solid black;
         width: 500px;
         height: 200px;}
     #walking { 
-        font-size: 16px;
-        left: 0px;}
+        font-size: 18px;
+        left: 0px;
+        letter-spacing: 2;}
     #boarding {
-        font-size: 16px;
-        right: 0px;   }
+        font-size: 18px;
+        right: 0px;  
+        letter-spacing: 2;}
     
     footer {
         min-height: 180px;}
@@ -401,13 +403,17 @@ textarea { border: 2px solid black;
     }
     #walking > h1 {
         font-size: 18px;
+        letter-spacing: 0;
     }
     #boarding > h1 {
-        font-size: 16px;}
+        font-size: 16px;
+        letter-spacing: 0;}
     #walking > h3, #boarding > h3{
-        font-size: 12px;}
+        font-size: 12px;
+        letter-spacing: 0;}
     #walking > h4, #boarding > h4{
-        font-size: 10px;}
+        font-size: 10px;
+        letter-spacing: 0;}
     input[type=text],input[type=email], input[type=submit],textarea, label, input {
             font-size: 12px;}
     #address {
