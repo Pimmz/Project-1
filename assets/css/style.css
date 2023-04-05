@@ -139,10 +139,14 @@ footer {
     content: "";
     clear: both;
     display: table;
+    padding-top: 70px;
+    padding-bottom: 40px;
   }
   .review {
+    font-size: 20px;
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 /*contact page to set images and text*/
 
@@ -266,10 +270,7 @@ textarea { border: 2px solid black;
     #cover-text > h1 {
         font-size: 125px;}
     #cover-text > h3 {
-        font-size: 25px;}
-    
-    
-    
+        font-size: 25px;} 
 }
 /* for medium from 1400px wide and down */
 
@@ -292,8 +293,8 @@ textarea { border: 2px solid black;
         min-height: 180px;}
     
     .column {
-        width: 25%;
-    }
+            width: 25%;
+        }
 }
 
 /* for medium from 1200px wide and down */
