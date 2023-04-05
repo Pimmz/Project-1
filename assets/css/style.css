@@ -164,23 +164,23 @@ footer {
 input[type=text],input[type=email]   {
     border: 2px solid black;
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: pt serif, oswald, sans-serif; 
 }
 
-label {
-    font-size: 20px;
+label, input[type=submit] {
+    font-size: 18px;
 }
 input {
-    font-size: 25px;
+
     border: 2px solid black;
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: pt serif, oswald, sans-serif; 
 }
 textarea { border: 2px solid black;
     border-radius: 4px;
-    font-size: 20pxpx;
+    font-size: 18px;
     font-family: pt serif, oswald, sans-serif; 
     width: 100%;
 }
@@ -193,7 +193,7 @@ textarea { border: 2px solid black;
     left :0px;
     position: absolute;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: pt serif, oswald, sans-serif; 
     background-color: #dfdfdf;
 }
@@ -333,6 +333,9 @@ textarea { border: 2px solid black;
         font-size: 15px;} 
     footer {
         min-height: 200px;}
+    input[type=text],input[type=email], input[type=submit],textarea, label, input {
+        font-size: 15px;
+    }
     }
     
 
@@ -342,10 +345,12 @@ textarea { border: 2px solid black;
         min-height: 220px;
         font-size: 17px;}
     
-    input[type=text],input[type=email], label, input  {
-        font-size: 20px;}
+    input[type=text],input[type=email], input[type=submit],textarea, label, input {
+        font-size: 14px;}
     .column {
-            width: 33%;}
+        width: 33%;}
+    #address {
+        font-size: 20px;}
 }
 /* for small from 500px wide and down */
 @media screen and (max-width:500px) {
@@ -384,8 +389,8 @@ textarea { border: 2px solid black;
         font-size: 15px;}
     #walking > h4, #boarding > h4{
             font-size: 10px}
-    input[type=text],input[type=email], label, input  {
-                font-size: 15px;}
+    input[type=text],input[type=email], input[type=submit],textarea, label, input {
+            font-size: 12px;}
     #address {
         width: 320px;
         height: 170px;
