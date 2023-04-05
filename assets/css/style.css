@@ -199,7 +199,7 @@ textarea { border: 2px solid black;
 }
 
 /*services page to set image and text*/
-#dogs-image { 
+#threedogs-image { 
     height: 900px;
     width: 100%;
     background: url('../images/dogs.jpg');
@@ -357,14 +357,17 @@ textarea { border: 2px solid black;
 }
 /* for small from 500px wide and down */
 @media screen and (max-width:500px) {
-    
+    #cover-text {
+        width: auto;
+        height: 200px;}
     #dog-image {
         width :100%;
-        height: 500px;
+        height: 600px;
         background: url('../images/dog-running1.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;}
-    #dogs-image {
+
+    #threedogs-image {
         width :100%;
         height: 500px;
         background: url('../images/dog1.jpg');
@@ -408,7 +411,7 @@ textarea { border: 2px solid black;
             font-size: 12px;}
     #address {
         width: 320px;
-        height: 170px;
+        height: 120px;
         font-size: 18px;}
     .column {
         width: 50%;}
