@@ -11,6 +11,8 @@ Walkies has been designed so dogs of all breads can get that energy out of their
 
 Heres a screenshot of the website for to see from amiresponsive [screenshot](documentation/walkies.jpg)
 
+
+
 Design Process
 
 When I started the design of Walkies I wanted to ensure the site was Useful, Useable and Valuable, so that it makes the user experience informative and enjoyable. To do this I looked at the five key fundamentals;
@@ -26,6 +28,7 @@ Skeleton - As before this was designed around the customer path which was gained
 Surface - I wanted the look of Walkies to be informative, clear, concise, with consistent typography and coresponding colours to help them stand out, to easily navigated with emotive pictures that helped to bring an element of fun which I believe all of our dogs give us on a daily basis.
 
 
+
 Walkies choice of colour
 
 #fff4f3 was used for primary text.
@@ -36,17 +39,22 @@ rgb(0,0,0,0.9) was used for primary highlights on the Navigation bar and footer
 To help with the colour choice I used coolors https://coolors.co/generate it allowed me to put the home image in and it generated the colours used. screenshot attached
 [screenshot](documentation/colour-scheme.jpg)
 
+
+
 Typography
 
 I looked for font on google fonts, to help me decide as it gave a better visual aid for me to see how they all looked in there different weights. After many hours trying the fonts out on Walkies I decide to keep pt serif all the way through to ensure a good balance, with a conssitent look and feel. As a back up I used oswald as it has a great look and then my third choice was sans-serif as a fall back incase the other two werent available.
 
 [pt serif]https://fonts.google.com/specimen/PT+Serif?query=pt+serif was used for the all the text and headers.
 
+
+
 Icons
 
 To help with making Walkies as user friendly as possible I used icons from font awesome. This helped highlight specific areas to bring the user attention to it.
 
 [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+
 
 
 Features
@@ -56,19 +64,31 @@ The following features were included on the website to ensure it was as user fri
 - A consistent, clear, concise navigation bar and footer was also required to ensure existency across every web page to help the user navigate easily around the site,    
   understand abit about us, see our location and view our social media.
   [screenshot](documentation/home-page.jpg)
+
+
 - Emotive images were used to help people to relate them to our business of walking their dog
   [screenshot](documentation/colour-scheme.jpg)
+
+
 - Benefits of walking your dog were also used to help show the real positives of regualar excercise and how vitel it is to their dogs health.
   [screenshot](documentation/colour-scheme.jpg)
+
+
 - The services provided by Walkies and the cost are a key part to aid customers see what service we offer and the price of them.
   [screenshot](documentation/services-page.jpg)
+
+
 - How to contact us and the location we currently serve is one of the most important pieces of information, so that the customer knows exactly how to get hold of us 
   and whether or not we serve their particular area. To aid with this our address and telephone number are on the footer of every page.
   [screenshot](documentation/contact-page.jpg)
+
+
 - As constantly improving is a must for any business, I have included a feedback form for customers to provide us with information that can help improve our business, 
   regardless of whether or not they are a 
   customer. 
   [screenshot](documentation/contact-page.jpg)
+
+
 - A review section for google reviews has also been created to show reviews left by others customers to help clarify the excellent service offered by Walkies. As more  
   and more purchases are often made by the 
   reviews of other customers.
@@ -76,30 +96,26 @@ The following features were included on the website to ensure it was as user fri
 
 
 
+Future Features
 
-Repeat as necessary for as many features as your site contains.
+Navigation bar
+I would love to change the navigation bar buttons in dog bones, which made a woofing sound when pressed. Just to add alittle more design and fun to the page 
 
-Hint: the more, the merrier!
+Google review
+I would like to add a seperate link where customers can leave a google review direct from the site. Reviews are essential for a business to help them move forward so to be able to capture the customer early would be a great addition to the site
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Interactive Map
+In the contact pages I would love to be able to change the existing static map to an interactive one with street view capabilites. Just to add abit more technology to the page. 
 
-### Future Features
+Using Flexfrog rather than css floats.
+Due to the way the course is structured Id learnt how to use css floats to a degree with the love running project. I was finding it difficult to move boxes around in css floats and during my mentor meeting he mention using flexfrog and gave me the link to use it. But as time was a factor and I had learnt css floats I continued using it. But look forward to using flexfrog.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+Mobile first Approach
+Due to the way the course is structured Id learnt how to use css floats when it came to responsive design with the love running project. Again in the meeting with my mentor he mentioned the benefit of mobile first, as some many of us use our mobiles now to search the internet and it was a smarter way of building a website. So I look forward to designing my next website using that approach.
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+Video / Picture Gallery
+I would like to add another page that showed " with owners concent " their dogs running around enjoying themselves in a video and picture gallery so it engaged the customer better. So they knew what their dog could be doing to.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
 
 ## Tools & Technologies Used
 
