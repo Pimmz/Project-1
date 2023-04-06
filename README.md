@@ -12,7 +12,6 @@ Walkies has been designed so dogs of all breads can get that energy out of their
 Heres a screenshot of the website for to see from amiresponsive [screenshot](documentation/walkies.jpg)
 
 
-
 Design Process
 
 When I started the design of Walkies I wanted to ensure the site was Useful, Useable and Valuable, so that it makes the user experience informative and enjoyable. To do this I looked at the five key fundamentals;
