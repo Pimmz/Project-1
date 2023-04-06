@@ -75,27 +75,7 @@ The following features were included on the website to ensure it was as user fri
   [screenshot](documentation/review-page.jpg)
 
 
-### Existing Features
 
-- **Title for feature #1**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature01.png)
-
-- **Title for feature #2**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature02.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 Repeat as necessary for as many features as your site contains.
 
