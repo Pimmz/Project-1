@@ -27,6 +27,8 @@ Skeleton - As before this was designed around the customer path which was gained
 
 Surface - I wanted the look of Walkies to be informative, clear, concise, with consistent typography and coresponding colours to help them stand out, to easily navigated with emotive pictures that helped to bring an element of fun which I believe all of our dogs give us on a daily basis.
 
+Then I sat down and roughly sketched out onto paper what the screens would look like in a desktop, mobile and tablet look 
+[screenshot](documentation/Initial-paper-design.jpg) [screenshot](documentation/Intial-paper-design1.jpg) This then gave me the basis to start creating Walkies in gitpod.
 
 
 Walkies choice of colour
@@ -116,9 +118,11 @@ Due to the way the course is structured Id learnt how to use css floats when it 
 Video / Picture Gallery
 I would like to add another page that showed " with owners concent " their dogs running around enjoying themselves in a video and picture gallery so it engaged the customer better. So they knew what their dog could be doing to.
 
+Commit messages.
+I'm fully aware that my original commits were done incorrectly, due to the fact that I was following the method taught by the Code Institute videos. However, after having my first call with my mentor, we discussed the appropriate method to write the commit messages, and I have since changed this behaviour. The screenshot below shows the first commits that were done incorrectly.
+[screenshot](documentation/commit.jpg)
 
 Tool and technologies used
-
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
