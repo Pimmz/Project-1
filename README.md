@@ -9,17 +9,22 @@ My Fiance is also a big influence in me building Walkies as she has always talke
 
 Walkies has been designed so dogs of all breads can get that energy out of their bodies that can have such a distruptive behaviour around the house. It is our ultimate goal to ensure that as many dogs as possible have calm and relaxing lives, rather than being frustartaed and angry due to the lack of excercise. not to mention the improved cardiovascular fitness, lower blood pressure, stronger muscles and bones (built up by walking regularly), and decreased stress. A regular walk is vitally important for your dogs health.
 
-Heres a screenshot of the website for to see from amiresponsive !{screenshot} {documentation/walkies.jpg} 
+Heres a screenshot of the website for to see from amiresponsive [screenshot](documentation/walkies.jpg)
 
 Design Process
 
 When I started the design of Walkies I wanted to ensure the site was Useful, Useable and Valuable, so that it makes the user experience informative and enjoyable. To do this I looked at the five key fundamentals;
                             
-                                  Stragety - To ensure dogs get the excercise and comfort they so richly deserve when their owners are able to do so themselves.
-                                  Scope - Based on the information from the stategy the features included emotive images, key information as to the benefits of walking your dog. The services provided by Walkies and the cost. How to contact us and the location we currently serve. A way to feedback the customers experience to help us to constantly improve. A review section for google reviews left by others customers to help clarify the excellent service offered by Walkies. A consistent nav bar and footer was also required to ensure existencecy across every web page to help the user navigate easily around the site.
-                                  Structure - This was designed around the customer path. After speaking with a number of the general public, they wanted to know what we did?, the services we provided?, the cost of it? and what other customers had thought of the service. 
-                                  Skeleton - As before this was designed around the customer path which was gained through the general public. This dictated that the pages would follow the first Home screen showing the what we did?, the second showing the services and the price we charged, the third showing how to get in contact with us and provide feedback to help us constantly improve. The fouth page is to show what other customers are saying to help them make an informed response.
-                                  Surface - I wanted the look of Walkies to be informative, clear, concise, with consistent typography and coresponding colours to help them stand out, to easily navigated with emotive pictures that helped to bring an element of fun which I believe all of our dogs give us on a daily basis.
+Stragety - To ensure dogs get the excercise and comfort they so richly deserve when their owners are able to do so themselves.
+
+Scope - Based on the information from the stategy the features included emotive images, key information as to the benefits of walking your dog. The services provided by Walkies and the cost. How to contact us and the location we currently serve. A way to feedback the customers experience to help us to constantly improve. A review section for google reviews left by others customers to help clarify the excellent service offered by Walkies. A consistent nav bar and footer was also required to ensure existencecy across every web page to help the user navigate easily around the site.
+
+Structure - This was designed around the customer path. After speaking with a number of the general public, they wanted to know what we did?, the services we provided?, the cost of it? and what other customers had thought of the service. 
+
+Skeleton - As before this was designed around the customer path which was gained through the general public. This dictated that the pages would follow the first Home screen showing the what we did?, the second showing the services and the price we charged, the third showing how to get in contact with us and provide feedback to help us constantly improve. The fouth page is to show what other customers are saying to help them make an informed response.
+
+Surface - I wanted the look of Walkies to be informative, clear, concise, with consistent typography and coresponding colours to help them stand out, to easily navigated with emotive pictures that helped to bring an element of fun which I believe all of our dogs give us on a daily basis.
+
 
 Walkies choice of colour
 
@@ -29,7 +34,7 @@ rgb(0,0,0,0.9) was used for primary highlights on the Navigation bar and footer
 #B6DCDF was used to highlight the sevices text.
 
 To help with the colour choice I used coolors https://coolors.co/generate it allowed me to put the home image in and it generated the colours used. screenshot attached
-![screenshot](documentation/colour-scheme.jpg)
+[screenshot](documentation/colour-scheme.jpg)
 
 Typography
 
@@ -44,24 +49,31 @@ To help with making Walkies as user friendly as possible I used icons from font 
 [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 
+Features
 
+The following features were included on the website to ensure it was as user friendly as possible;
 
-## Features
+- A consistent, clear, concise navigation bar and footer was also required to ensure existency across every web page to help the user navigate easily around the site,    
+  understand abit about us, see our location and view our social media.
+  [screenshot](documentation/home-page.jpg)
+- Emotive images were used to help people to relate them to our business of walking their dog
+  [screenshot](documentation/colour-scheme.jpg)
+- Benefits of walking your dog were also used to help show the real positives of regualar excercise and how vitel it is to their dogs health.
+  [screenshot](documentation/colour-scheme.jpg)
+- The services provided by Walkies and the cost are a key part to aid customers see what service we offer and the price of them.
+  [screenshot](documentation/services-page.jpg)
+- How to contact us and the location we currently serve is one of the most important pieces of information, so that the customer knows exactly how to get hold of us 
+  and whether or not we serve their particular area. To aid with this our address and telephone number are on the footer of every page.
+  [screenshot](documentation/contact-page.jpg)
+- As constantly improving is a must for any business, I have included a feedback form for customers to provide us with information that can help improve our business, 
+  regardless of whether or not they are a 
+  customer. 
+  [screenshot](documentation/contact-page.jpg)
+- A review section for google reviews has also been created to show reviews left by others customers to help clarify the excellent service offered by Walkies. As more  
+  and more purchases are often made by the 
+  reviews of other customers.
+  [screenshot](documentation/review-page.jpg)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Existing Features
 
