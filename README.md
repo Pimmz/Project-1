@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-# PROJECT 1
+Walkies
 
 Welcome to Walkies! The dog walking and boarding website created to ensure dogs get the excercise and comfort they so richly deserve.
 I have created Walkies as we have a great love for dogs and have a Wired Haired Fox Terrier ourselves that we have regularly walked and trained and have found that so many dogs dont get the excercise they need due to us all having such busy lives.
@@ -21,71 +21,30 @@ When I started the design of Walkies I wanted to ensure the site was Useful, Use
                                   Skeleton - As before this was designed around the customer path which was gained through the general public. This dictated that the pages would follow the first Home screen showing the what we did?, the second showing the services and the price we charged, the third showing how to get in contact with us and provide feedback to help us constantly improve. The fouth page is to show what other customers are saying to help them make an informed response.
                                   Surface - I wanted the look of Walkies to be informative, clear, concise, with consistent typography and coresponding colours to help them stand out, to easily navigated with emotive pictures that helped to bring an element of fun which I believe all of our dogs give us on a daily basis.
 
-### Colour Scheme
+Walkies choice of colour
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+#fff4f3 was used for primary text.
+rgb(0,0,0,0.9) was used for primary highlights on the Navigation bar and footer
+#dfdfdf was used as a secondary highlight to help text stand out 
+#B6DCDF was used to highlight the sevices text.
 
-Explain your colours and the colour scheme.
+To help with the colour choice I used coolors https://coolors.co/generate it allowed me to put the home image in and it generated the colours used. screenshot attached
+![screenshot](documentation/colour-scheme.jpg)
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Typography
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+I looked for font on google fonts, to help me decide as it gave a better visual aid for me to see how they all looked in there different weights. After many hours trying the fonts out on Walkies I decide to keep pt serif all the way through to ensure a good balance, with a conssitent look and feel. As a back up I used oswald as it has a great look and then my third choice was sans-serif as a fall back incase the other two werent available.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+[pt serif]https://fonts.google.com/specimen/PT+Serif?query=pt+serif was used for the all the text and headers.
 
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
+Icons
 
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
+To help with making Walkies as user friendly as possible I used icons from font awesome. This helped highlight specific areas to bring the user attention to it.
 
-Example:
+[Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
 
-![screenshot](documentation/coolors.png)
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
-
-### Typography
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
-
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 ## Features
 
