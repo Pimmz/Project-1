@@ -32,12 +32,17 @@ Below is a link for you too see live that my code is valid plus I have enlocsed 
 
 - [screenshot](documentation/w3c-htmlvalidator.jpg)
 
-
+[screenshot](documentation/walkies.jpg)
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Section lacks header h2-h6 warning |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Findex.html) [screenshot](documentation/w3c-htmlvalidator.jpg)|
+
+| Services | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fservices.html) [screenshot](documentation/html-validation-contact.png) 
+
+
+
 | Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.png) | obsolete iframe warnings |
-| Quiz | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fquiz.html) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+|  | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fquiz.html) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
 | Add Blog | n/a | ![screenshot](documentation/html-validation-add-blog.png) | Duplicate IDs found, and fixed |
 | Checkout | n/a | ![screenshot](documentation/html-validation-checkout.png) | Pass: No Errors |
 | x | x | x | repeat for all remaining HTML files |
