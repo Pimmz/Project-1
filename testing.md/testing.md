@@ -71,6 +71,10 @@ Sample CSS code validation documentation (tables are extremely helpful!):
 | checkout.css | n/a | ![screenshot](documentation/css-validation-checkout.png) | Pass: No Errors |
 | x | x | x | repeat for all remaining CSS files |
 
+
+Error
+
+
 ## Browser Compatibility
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️

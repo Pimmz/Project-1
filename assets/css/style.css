@@ -285,11 +285,11 @@ textarea { border: 2px solid black;
     #walking { 
         font-size: 18px;
         left: 0px;
-        letter-spacing: 2;}
+        letter-spacing: 2px;}
     #boarding {
         font-size: 18px;
         right: 0px;  
-        letter-spacing: 2;}
+        letter-spacing: 2px;}
     
     footer {
         min-height: 180px;}
@@ -403,11 +403,11 @@ textarea { border: 2px solid black;
     }
     #walking > h1 {
         font-size: 18px;
-        letter-spacing: 0;
+        letter-spacing: 0px;
     }
     #boarding > h1 {
         font-size: 16px;
-        letter-spacing: 0;}
+        letter-spacing: 0px;}
     #walking > h3, #boarding > h3{
         font-size: 12px;
         letter-spacing: 0;}
