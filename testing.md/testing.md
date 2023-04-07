@@ -50,94 +50,47 @@ CSS Validation
 
 Below is a link for you too see live that my code is valid plus I have enlocsed a screenshot in case for some reason that fails;
 
-- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FPimmz.github.io%2FProject-1
+| Page | W3C URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | [W3C](- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FPimmz.github.io%2FProject-1) [screenshot](documentation/  put screenshot here jpg)|
+
+Error
+[screenshot](documentation/css-error.jpg) px was missing on line 288 and 292, now fixed
+
 
 If you have multiple CSS files, then individual [validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)
 is recommended for the additional CSS files.
 
-**IMPORTANT**: Third-Party tools
-
-If you're using extras like Bootstrap, Materialize, Font Awesome, then sometimes the validator
-will attempt to also validate this code, even if it's not part of your own actual code.
-You are not required to validate the external libraries or frameworks!
-
-Sample CSS code validation documentation (tables are extremely helpful!):
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-| File | Jigsaw URL | Screenshot | Notes |
-| --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FPimmz.github.io%2FProject-1) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
-| checkout.css | n/a | ![screenshot](documentation/css-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining CSS files |
 
 
-Error
+Browser capability and Responsiveness
 
+I have tested Walkies on three different browsers. The first was chrome, the second was Firefox and the third was Safari
 
-## Browser Compatibility
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss testing the live/deployed site on various browsers.
-
-Consider testing at least 3 different browsers, if available on your system.
-
-Recommended browsers to consider:
 - [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
+
+- [Firefox](https://www.mozilla.org/firefox)
+
 - [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
 
-**IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
 
-Please note, there are services out there that can test multiple browser compatibilities at the same time.
-Some of these are paid services, but some are free.
-If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-Sample browser testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I've tested my deployed project on multiple browsers to check for compatibility issues.
+I've tested my deployed project on multiple browsers to check for compatibility issues. To ensure that all are working correctly I have also tested for responsivness on desktop, tablet and mobile 
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browser-chrome.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browser-firefox.png) | Works as expected |
-| Edge | ![screenshot](documentation/browser-edge.png) | Works as expected |
-| Safari | ![screenshot](documentation/browser-safari.png) | Minor CSS differences |
-| Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
-| Opera | ![screenshot](documentation/browser-opera.png) | Minor differences |
-| Internet Explorer | ![screenshot](documentation/browser-iex.png) | Does not work as expected |
-| x | x | repeat for any other tested browsers |
+| Chrome Desktop| [screenshot](documentation/ Put screen shot here) ) | Works as expected |
+| Chrome Tablet|
+| Chrome Mobile
 
-## Responsiveness
+| Firefox Desktop| [screenshot](documentation/ Put screen shot here)  | Works as expected |
+| Firefox Tablet|
+| Firefox Mobile|
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+| Safari Desktop| [screenshot](documentation/ Put screen shot here) |
+| Safari Desktop|
+| Safari Desktop|
 
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is for the following 3 tests:
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of the tested responsiveness, to "prove" that you've actually tested them.
-
-Using the "amiresponsive" mockup image (or similar) does not suffice the requirements.
-Consider using some of the built-in device sizes in the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
-It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-Sample responsiveness testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I've tested my deployed project on multiple devices to check for responsiveness issues.
+To be completely thorough I have tested Walkies on the below devices.
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
@@ -150,26 +103,11 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | iPhone 14 | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
 | x | x | repeat for any other tested sizes |
 
-## Lighthouse Audit
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-Use this space to discuss testing the live/deployed site's Lighthouse Audit reports.
-Avoid testing the local version (especially if developing in Gitpod), as this can have knock-on effects of performance.
+Lighthouse Audit
 
-If you don't have Lighthouse in your Developer Tools,
-it can be added as an [extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk).
-
-Don't just test the home page (unless it's a single-page application).
-Make sure to test the Lighthouse Audit results for all of your pages.
-
-**IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
-
-Sample Lighthouse testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues I have enclosed the following screenshot to show as my evidence.
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
@@ -181,6 +119,8 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Gallery | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
 | x | x | x | repeat for any other tested pages/sizes |
 
+
+
 ## Bugs
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
@@ -188,7 +128,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 It's very important to document any bugs you've discovered while developing the project.
 Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
 
-For JavaScript and Python applications, it's best to screenshot the errors to include them as well.
 
 **PRO TIP**: screenshots of bugs are extremely helpful, and go a long way!
 
