@@ -86,15 +86,13 @@ The following features were included on the website to ensure it was as user fri
 
 
 - As constantly improving is a must for any business, I have included a feedback form for customers to provide us with information that can help improve our business, 
-  regardless of whether or not they are a 
-  customer. 
+  regardless of whether or not they are acustomer. 
 
 ![screenshot](documentation/contact-page.jpg)
 
 
 - A review section for google reviews has also been created to show reviews left by others customers to help clarify the excellent service offered by Walkies. As more  
-  and more purchases are often made by the 
-  reviews of other customers.
+  and more purchases are often made by the reviews of other customers.
 
 ![screenshot](documentation/review-page.jpg)
 
@@ -103,10 +101,7 @@ The following features were included on the website to ensure it was as user fri
 ### Future Features
 
 Navigation bar
-I would love to change the navigation bar buttons in dog bones, which made a woofing sound when pressed. Just to add alittle more design and fun to the page 
-
-Google review
-I would like to add a seperate link where customers can leave a google review direct from the site. Reviews are essential for a business to help them move forward so to be able to capture the customer early would be a great addition to the site
+I would love to change the navigation bar buttons into dog bones, which made a woofing sound when pressed. Just to add alittle more design and fun to the Google review page. I would like to add a seperate link where customers can leave a google review direct from the site. Reviews are essential for a business to help them move forward so to be able to capture the customer early would be a great addition to the site
 
 Interactive Map
 In the contact pages I would love to be able to change the existing static map to an interactive one with street view capabilites. Just to add abit more technology to the page. 

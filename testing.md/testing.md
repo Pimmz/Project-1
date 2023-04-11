@@ -31,18 +31,18 @@ Below is a link for you too see live that my code is valid plus I have enlocsed 
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Findex.html) ![screenshot](documentation/W3validator-homescreen.jpg)|
 
-| Services | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fservices.html) [screenshot](documentation/W3validator-reviewscreen.jpg) 
+| Services | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fservices.html) ![screenshot](documentation/W3validator-reviewscreen.jpg) 
 
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fcontact.html) | [screenshot](documentation/W3validator-reviewscreen.jpg}
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fcontact.html) | ![screenshot](documentation/W3validator-reviewscreen.jpg}
 
-| Review | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Freviews.html) | [screenshot](documentation/W3validator-reviewscreen.jpg}
+| Review | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Freviews.html) | ![screenshot](documentation/W3validator-reviewscreen.jpg}
 
 |  Errors |
-| Add Blog | n/a | ![screenshot](documentation/html-validation-add-blog.png) | Duplicate IDs found, and fixed |
+| Add Blog | n/a | |
 | Checkout | n/a | ![screenshot](documentation/html-validation-checkout.png) | Pass: No Errors |
 | x | x | x | repeat for all remaining HTML files |
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 
 CSS Validation
 
