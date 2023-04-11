@@ -6,81 +6,63 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
- }
- 
+}
 /* main font and weight */
 body {
-    font-family: pt serif, oswald, sans-serif; 
+    font-family: pt serif, oswald, sans-serif;
     font-weight: 300;
 }
 /* nav bar and footer css here */
-a, nav > menu {
-    color:#fff4f3;
-
+a,
+nav>menu {
+    color: #fff4f3;
 }
 .menu {
     height: 40px;
     padding-top: 5px;
     padding-left: 15px;
-    background: rgb(0,0,0,0.9);
+    background: rgb(0, 0, 0, 0.9);
     word-spacing: 20px;
     font-size: 22px;
     font-family: pt serif, oswald, sans-serif;
     font-weight: 600;
 }
-
 footer {
-    min-height: 140px;
-    padding-top: 10px;
-    background-color: rgb(0,0,0,0.9);
+    padding: 1em 0;
+    background-color: rgb(0, 0, 0, 0.9);
     color: #fff4f3;
     text-align: center;
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-
-#the-footer > p:first-child {
-    float: left;
-    text-align: left;
-    width: 33.3%; }
-
-#the-footer > p:nth-child(2) {
-    float: left;
-    text-align: center;
-    width: 33.4%;
-    }
-
-#the-footer > p:last-child {
-    float: right;
-    text-align: center;
+footer ul {
+    list-style-type: none;
+}
+footer p {
     width: 33.3%;
-    }
-
+}
 /* hero image and cover text*/
-
-#cover-text > h1 { 
+#cover-text>h1 {
     font-size: 150px;
     text-transform: uppercase;
-    color:#fff4f3;
-    font-family: pt serif, oswald, sans-serif; 
+    color: #fff4f3;
+    font-family: pt serif, oswald, sans-serif;
     padding-left: 40px;
-
 }
-
-#cover-text > h3 {
-    color:#fff4f3;
+#cover-text>h3 {
+    color: #fff4f3;
     font-size: 30px;
     padding-left: 40px;
     width: 100%;
 }
-
-#benefits > h3 {
-    color:#fff4f3;
+#benefits>h3 {
+    color: #fff4f3;
     font-size: 30px;
 }
-
-#benefits > p {
-    color:#fff4f3;
-    font-size: 15px;
+#benefits>p {
+    color: #fff4f3;
 }
 #dog-image {
     height: 900px;
@@ -89,23 +71,20 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    text-align:center;
-    margin:auto;
-    padding:0;
-    
+    text-align: center;
+    margin: auto;
+    padding: 0;
 }
-
 #cover-text {
     letter-spacing: 4px;
-    width: 700px;
+    max-width: 700px;
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
     top: 120px;
-    left :20px;
+    left: 20px;
     position: absolute;
 }
-
 #benefits {
     letter-spacing: 4px;
     width: 300px;
@@ -113,97 +92,111 @@ footer {
     padding-top: 90px;
     padding-right: 10px;
     top: 120px;
-    right :20px;
+    right: 20px;
     position: absolute;
 }
-
-.outer{
+.outer {
     padding-top: 4%;
     list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 0;
 }
-
 /* review page to set images and text*/
-
-  .column {
+.row {
+    margin: 0 auto;
+    text-align: center;
+}
+.column {
     float: left;
-    width: 20%;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  
-  .row::after {
+    padding: 10px 20px;
+}
+.column img {
+    object-fit: cover;
+    max-height: 250px;
+    max-width: 250px;
+}
+.row::after {
     content: "";
     clear: both;
     display: table;
     padding-top: 70px;
     padding-bottom: 40px;
-  }
-  .review {
+}
+.review {
     font-size: 20px;
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
-  }
+}
 /*contact page to set images and text*/
-
-  #map{
+#map {
     height: 800px;
     width: 100%;
     background: url('../images/google_map.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    text-align:center;
-    margin:auto;
-    padding:0;
+    text-align: center;
+    margin: auto;
+    padding: 0;
 }
 /*form text and layout*/
 #form {
     background-color: #dfdfdf;
+    padding: 2em 0;
 }
-input[type=text],input[type=email]   {
+form h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+.table-center {
+    text-align: center;
+}
+table {
+    border-spacing: 1em;
+    margin: 0 auto;
+    width: 50%;
+}
+input[type=text],
+input[type=email] {
     border: 2px solid black;
     border-radius: 4px;
     font-size: 18px;
-    font-family: pt serif, oswald, sans-serif; 
+    font-family: pt serif, oswald, sans-serif;
 }
-
-label, input[type=submit] {
+label,
+input[type=submit] {
     font-size: 18px;
 }
 input {
-
     border: 2px solid black;
     border-radius: 4px;
     font-size: 18px;
-    font-family: pt serif, oswald, sans-serif; 
+    font-family: pt serif, oswald, sans-serif;
 }
-textarea { border: 2px solid black;
+textarea {
+    border: 2px solid black;
     border-radius: 4px;
     font-size: 18px;
-    font-family: pt serif, oswald, sans-serif; 
+    font-family: pt serif, oswald, sans-serif;
     width: 100%;
 }
-#address{
+#address {
     width: 450px;
     height: 170px;
     padding-bottom: 90px;
     padding-left: 30px;
     top: 50px;
-    left :0px;
+    left: 0px;
     position: absolute;
     font-size: 25px;
     font-weight: 500;
-    font-family: pt serif, oswald, sans-serif; 
+    font-family: pt serif, oswald, sans-serif;
     background-color: #dfdfdf;
 }
-
 /*services page to set image and text*/
-#threedogs-image { 
+#threedogs-image {
     height: 900px;
     width: 100%;
     background: url('../images/dogs.jpg');
@@ -214,20 +207,21 @@ textarea { border: 2px solid black;
 #services {
     background-color: #B6DCDF;
 }
-#services > h1 {
-    font-family: pt serif, oswald, sans-serif; 
+#services>h1 {
+    font-family: pt serif, oswald, sans-serif;
     font-weight: bold;
     font-size: 35px;
     text-align: center;
     text-decoration: underline;
 }
-#services > h3 {
-    font-family: pt serif, oswald, sans-serif; 
+#services>h3 {
+    font-family: pt serif, oswald, sans-serif;
     font-size: 20px;
     text-align: center;
 }
-#walking > h1, #boarding > h1 {
-    font-family: pt serif, oswald, sans-serif; 
+#walking>h1,
+#boarding>h1 {
+    font-family: pt serif, oswald, sans-serif;
     text-decoration: underline;
     font-size: 30px;
 }
@@ -238,12 +232,11 @@ textarea { border: 2px solid black;
     padding-top: 10px;
     padding-left: 20px;
     top: 120px;
-    left :100px;
+    left: 100px;
     position: absolute;
-    font-family: pt serif, oswald, sans-serif; 
+    font-family: pt serif, oswald, sans-serif;
     font-size: 20px;
     text-align: left;
-
 }
 #boarding {
     letter-spacing: 4px;
@@ -252,175 +245,212 @@ textarea { border: 2px solid black;
     padding-top: 10px;
     padding-right: 20px;
     top: 120px;
-    right :100px;
+    right: 100px;
     position: absolute;
-    font-family: pt serif, oswald, sans-serif; 
+    font-family: pt serif, oswald, sans-serif;
     text-align: right;
     font-size: 20px;
 }
-#walking > h4, #walking >h4 {
-    font-family: pt serif, oswald, sans-serif; 
+#walking>h4,
+#walking>h4 {
+    font-family: pt serif, oswald, sans-serif;
 }
-
 /* media queries */
-
 /* for larger size from 1600px wide and down */
-
 @media screen and (max-width:1600px) {
-    #cover-text > h1 {
-        font-size: 125px;}
-    #cover-text > h3 {
-        font-size: 25px;} 
+    #cover-text>h1 {
+        font-size: 125px;
+    }
+    #cover-text>h3 {
+        font-size: 25px;
+    }
+    .column {
+        width: 25%;
+    }
+    .column img {
+        max-width: 100%;
+        object-fit: cover;
+    }
 }
 /* for medium from 1400px wide and down */
-
 @media screen and (max-width:1400px) {
     #benefits {
         width: 250px;
         height: 400px;
-        position: absolute;}
+        position: absolute;
+    }
     #cover-text {
-        width: 500px;
-        height: 200px;}
-    #walking { 
+        max-width: 500px;
+        height: 200px;
+    }
+    #walking {
         font-size: 18px;
         left: 0px;
-        letter-spacing: 2px;}
+        letter-spacing: 2px;
+    }
     #boarding {
         font-size: 18px;
-        right: 0px;  
-        letter-spacing: 2px;}
-    
-    footer {
-        min-height: 180px;}
-    
+        right: 0px;
+        letter-spacing: 2px;
+    }
     .column {
-            width: 25%;
-        }
+        width: 25%;
+    }
+    .column img {
+        max-width: 100%;
+        object-fit: cover;
+    }
 }
-
 /* for medium from 1200px wide and down */
 @media screen and (max-width:1200px) {
     #benefits {
         width: 160px;
         position: absolute;
         padding-top: 65px;
-        }
-    #cover-text > h1 {
-        font-size: 90px;}
-    #walking, #boarding {
-        width: 48%;}
-    
-    #map{
-        height: 675px;}
-    
     }
-
+    #cover-text>h1 {
+        font-size: 90px;
+    }
+    #walking,
+    #boarding {
+        width: 48%;
+    }
+    #map {
+        height: 675px;
+        background-position: center center;
+    }
+    .column {
+        width: calc(100% / 3);
+    }
+}
 /* for medium from 1050px wide and down */
 @media screen and (max-width:1050px) {
     #benefits {
-        display: none;}
+        left: 0;
+        top: 15em;
+        width: 50%;
+        padding: 3em;
+    }
     #cover-text {
         top: 20px;
-        left :0;}
-    #cover-text > h3 {
-        font-size: 20px; }
-    #cover-text > h1 {
-        font-size: 70px;} 
-    #walking > h1, #boarding > h1 {
+        left: 0;
+    }
+    #cover-text>h3 {
+        font-size: 20px;
+    }
+    #cover-text>h1 {
+        font-size: 70px;
+    }
+    #walking>h1,
+    #boarding>h1 {
         font-size: 25px;
-        text-align: left;}
-    #walking, #boarding {
         text-align: left;
-        font-size: 15px;} 
-    footer {
-        min-height: 200px;}
-    input[type=text],input[type=email], input[type=submit],textarea, label, input {
-        font-size: 15px;
     }
+    #walking,
+    #boarding {
+        text-align: left;
     }
-    
-
+}
 /* for small from 800px wide and down */
 @media screen and (max-width:800px) {
-    footer {
-        min-height: 220px;
-        font-size: 17px;}
-    
-    input[type=text],input[type=email], input[type=submit],textarea, label, input {
-        font-size: 14px;}
     .column {
-        width: 33%;}
+        width: 50%;
+    }
+    .column img {
+        max-width: 100%;
+        object-fit: cover;
+    }
     #address {
         font-size: 20px;
         width: 320px;
-        height: 170px;}
-    #boarding > h1 {
-            font-size: 20px;}
+        height: 170px;
+    }
+    #boarding>h1 {
+        font-size: 20px;
+    }
 }
 /* for small from 500px wide and down */
 @media screen and (max-width:500px) {
     #cover-text {
         width: auto;
-        height: 200px;}
+        height: 200px;
+    }
     #dog-image {
-        width :100%;
+        width: 100%;
         height: 600px;
         background: url('../images/dog-running1.jpg');
         background-repeat: no-repeat;
-        background-size: 100% 100%;}
-
+        background-size: cover;
+    }
+    #benefits {
+        width: 100%;
+        padding: 1em;
+        bottom: 0;
+        top: auto;
+    }
     #threedogs-image {
-        width :100%;
+        width: 100%;
         height: 500px;
         background: url('../images/dog1.jpg');
         background-repeat: no-repeat;
-        background-size: 100% 100%;}
+        background-size: cover;
+    }
     #map {
-        width :100%;
+        width: 100%;
         height: 500px;
         background: url('../images/google_map.jpg');
         background-repeat: no-repeat;
-        background-size: 100% 100%;}
-    
-    .menu { 
-        font-size: 15px;
-        word-spacing: 4px;}
-    #cover-text > h1 { 
+        background-size: cover;
+        background-position: center center;
+    }
+    .menu {
+        word-spacing: 4px;
+    }
+    #cover-text>h1 {
         font-size: 50px;
         text-align: left;
-        padding: 0px;}
-    #cover-text > h3 {
-        font-size: 10px;
+        padding: 0px;
+    }
+    #cover-text>h3 {
         padding: 0px;
         width: 70%;
-        }
+    }
     footer {
-        font-size: 12px;
+        padding: 1em;
+        font-size: 16px;
+        flex-direction: column;
     }
-    #services > h3 {
-        font-size: 15px;
+    footer p,
+    footer ul {
+        width: 100%;
+        margin-top: 1em;
     }
-    #walking > h1 {
+    #walking>h1 {
         font-size: 18px;
         letter-spacing: 0px;
     }
-    #boarding > h1 {
+    #boarding>h1 {
         font-size: 16px;
-        letter-spacing: 0px;}
-    #walking > h3, #boarding > h3{
-        font-size: 12px;
-        letter-spacing: 0;}
-    #walking > h4, #boarding > h4{
-        font-size: 10px;
-        letter-spacing: 0;}
-    input[type=text],input[type=email], input[type=submit],textarea, label, input {
-            font-size: 12px;}
+        letter-spacing: 0px;
+    }
+    #walking>h3,
+    #boarding>h3 {
+        letter-spacing: 0;
+    }
+    #walking>h4,
+    #boarding>h4 {
+        letter-spacing: 0;
+    }
     #address {
         width: 320px;
         height: 120px;
-        font-size: 18px;}
+        font-size: 18px;
+    }
     .column {
-        width: 50%;}
-    
+        width: 100%;
+    }
+    .column img {
+        max-width: 100%;
+        object-fit: cover;
+    }
 }
