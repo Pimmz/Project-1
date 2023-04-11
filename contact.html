@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <!--head put here-->
 <head>
@@ -7,88 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="dogwalking and sitting in Ware and hertford">
     <meta name="keywords" content="dog walking , dog sitting, dog boarding, ware , hertford">
-    <meta name="author" content="Steve Mayes">  
-
+    <meta name="author" content="Steve Mayes">
     <link rel="stylesheet" href="assets/css/style.css">
-
     <title>Walkies</title>
 </head>
 <!--body put here-->
 <body>
     <header>
-<!--nav bar to go here using icons-->
+        <!--nav bar to go here using icons-->
         <a href="index.html"></a>
-
         <nav class="menu">
             <a href="index.html" class="active"><i class="fas fa-home"></i>Home</a>
             <a href="services.html" class="active"><i class="fas fa-hands-helping"></i>Services</a>
             <a href="contact.html" class="active"><i class="fas fa-phone"></i>Contact</a>
             <a href="reviews.html" class="active"><i class="fas fa-pen"></i>Reviews</a>
-        </nav> 
+        </nav>
     </header>
-<!--contact section with map contact email and feedback area-->
+    <!--contact section with map contact email and feedback area-->
     <Section>
         <div id="map"></div>
         <div id="address">
             <h3>Walkies!</h3>
-            <p>We are currently serving Ware and Hertford only. Please fill in the form below or give us a call to speak to one of our advisers.</p>
-            
+            <p>We are currently serving Ware and Hertford only. Please fill in the form below or give us a call to speak
+                to one of our advisers.</p>
         </div>
     </Section>
     <section>
         <div id="form">
-            <form action="https://formdump.codeinstitute.net/" method="post">
-                
+            <form action="https://ci-formdump.herokuapp.com" method="post">
                 <h1>Send us a email if you prefer.</h1>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="first_name" required>
-
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="last_name" required>
-
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email_address" required>
-                <input type="submit" value="Submit">
-            </form>
-            <form action="https://formdump.codeinstitute.net/" method="post">
-                <label for="feedback">How Can We Improve Your Experience With Us?</label>
-                <br>
-                <textarea id="feedback" placeholder="Your feedback"></textarea>
-                <input type="submit" value="Submit">
+                <table>
+                    <tr>
+                        <td><label for="fname">First Name</label></td>
+                        <td><input type="text" id="fname" name="first_name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name</label></td>
+                        <td><input type="text" id="lname" name="last_name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email Address</label></td>
+                        <td><input type="email" id="email" name="email_address" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="feedback">How Can We Improve Your Experience With Us?</label></td>
+                        <td><textarea id="feedback" placeholder="Your feedback"></textarea></td>
+                    </tr>
+                    <tr class="table-center">
+                        <td colspan="2"><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
             </form>
         </div>
     </section>
-
-<!--footer with address, contact details and seocial media with icons-->
-    <footer class="the-footer">
-        <div id="the-footer">
-            <p><strong>About</strong>
-                <br> A local dog walking business established in 2015, based in the beautiful town of Ware. Our aim is to ensure dogs get the excercise and comfort they so richly deserve.
-            </p>
-            <p><strong>Contact, Walkies!</strong><br>Park Road,Ware<br>Hertfordshire,SG120AN<br><i class="fas fa-envelope"></i>Walkies@gmail.com <i class="fas fa-phone"></i>01234 567890
-            </p>
-            <p><strong>Social Media</strong></p>
-                <ul style="list-style-type:none;">
-                    <li>
-                        <a href="https://facebook.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-                    </li>
-                </ul>
-            
-        </div>
-           
+    <!--footer with address, contact details and seocial media with icons-->
+    <footer>
+        <p><strong>About</strong>
+            <br> A local dog walking business established in 2015, based in the beautiful town of Ware. Our aim is to
+            ensure dogs get the excercise and comfort they so richly deserve.
+        </p>
+        <p><strong>Contact, Walkies!</strong><br>Park Road,Ware<br>Hertfordshire,SG120AN<br><i
+                class="fas fa-envelope"></i>Walkies@gmail.com <i class="fas fa-phone"></i>01234 567890
+        </p>
+        <ul>
+            <li>
+                <strong>Social Media</strong>
+            </li>
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
-<!-- link for font awesome-->
+    <!-- link for font awesome-->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>
-
-
 </html>
