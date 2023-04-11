@@ -9,7 +9,9 @@ My Fiance is also a big influence in me building Walkies as she has always talke
 
 Walkies has been designed so dogs of all breads can get that energy out of their bodies that can have such a distruptive behaviour around the house. It is our ultimate goal to ensure that as many dogs as possible have calm and relaxing lives, rather than being frustartaed and angry due to the lack of excercise. not to mention the improved cardiovascular fitness, lower blood pressure, stronger muscles and bones (built up by walking regularly), and decreased stress. A regular walk is vitally important for your dogs health.
 
-Heres a screenshot of the website for to see from amiresponsive ![screenshot](documentation/walkies.jpg)
+Heres a screenshot of the website for to see from amiresponsive 
+
+![screenshot](documentation/walkies.jpg)
 
 
 ## Design Process (UX)
@@ -26,8 +28,9 @@ Skeleton - As before this was designed around the customer path which was gained
 
 Surface - I wanted the look of Walkies to be informative, clear, concise, with consistent typography and coresponding colours to help them stand out, to easily navigated with emotive pictures that helped to bring an element of fun which I believe all of our dogs give us on a daily basis.
 
-Then I sat down and roughly sketched out onto paper what the screens would look like in a desktop, mobile and tablet look 
-![screenshot](documentation/Initial-paper-design.jpg) ![screenshot](documentation/Intial-paper-design1.jpg) This then gave me the basis to start creating Walkies in gitpod.
+Then I sat down and roughly sketched out onto paper what the screens would look like in a desktop, mobile and tablet. This then gave me the basis to start creating Walkies in gitpod.
+
+![screenshot](documentation/Initial-paper-design.jpg) ![screenshot](documentation/Intial-paper-design1.jpg) 
 
 
 ### Walkies choice of colour
@@ -38,8 +41,8 @@ rgb(0,0,0,0.9) was used for primary highlights on the Navigation bar and footer
 #B6DCDF was used to highlight the sevices text.
 
 To help with the colour choice I used coolors https://coolors.co/generate it allowed me to put the home image in and it generated the colours used. screenshot attached
-![screenshot](documentation/colour-scheme.jpg)
 
+![screenshot](documentation/colour-scheme.jpg)
 
 
 ### Typography
@@ -57,43 +60,45 @@ To help with making Walkies as user friendly as possible I used icons from font 
 [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 
-
 ## Features
 
 The following features were included on the website to ensure it was as user friendly as possible;
 
 - A consistent, clear, concise navigation bar and footer was also required to ensure existency across every web page to help the user navigate easily around the site,    
   understand abit about us, see our location and view our social media.
-  ![screenshot](documentation/home-page.jpg)
+- Benefits of walking your dog were also used to help show the real positives of regualar excercise and how vitel it is to their dogs health.
+
+![screenshot](documentation/home-page.jpg)
 
 
 - Emotive images were used to help people to relate them to our business of walking their dog
-  ![screenshot](documentation/colour-scheme.jpg)
+
+![screenshot](documentation/google10.jpg)
 
 
-- Benefits of walking your dog were also used to help show the real positives of regualar excercise and how vitel it is to their dogs health.
-  ![screenshot](documentation/colour-scheme.jpg)
+- The services provided by Walkies and the cost are a key part to aid customers see what service we offer and the price of them. 
 
-
-- The services provided by Walkies and the cost are a key part to aid customers see what service we offer and the price of them.
-  ![screenshot](documentation/services-page.jpg)
+![screenshot](documentation/services-page.jpg)
 
 
 - How to contact us and the location we currently serve is one of the most important pieces of information, so that the customer knows exactly how to get hold of us 
   and whether or not we serve their particular area. To aid with this our address and telephone number are on the footer of every page.
-  ![screenshot](documentation/contact-page.jpg)
+
+![screenshot](documentation/contact-page.jpg)
 
 
 - As constantly improving is a must for any business, I have included a feedback form for customers to provide us with information that can help improve our business, 
   regardless of whether or not they are a 
   customer. 
-  ![screenshot](documentation/contact-page.jpg)
+
+![screenshot](documentation/contact-page.jpg)
 
 
 - A review section for google reviews has also been created to show reviews left by others customers to help clarify the excellent service offered by Walkies. As more  
   and more purchases are often made by the 
   reviews of other customers.
-  ![screenshot](documentation/review-page.jpg)
+
+![screenshot](documentation/review-page.jpg)
 
 
 
@@ -119,7 +124,9 @@ I would like to add another page that showed " with owners concent " their dogs 
 
 Commit messages.
 I'm fully aware that my original commits were done incorrectly, due to the fact that I was following the method taught by the Code Institute videos. However, after having my first call with my mentor, we discussed the appropriate method to write the commit messages, and I have since changed this behaviour. The screenshot below shows the first commits that were done incorrectly.
+
 ![screenshot](documentation/commit.jpg)
+
 
 ## Tool and technologies used
 
@@ -146,9 +153,6 @@ I'm fully aware that my original commits were done incorrectly, due to the fact 
 For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 
-
-***********************************************************************************************************
-
 ## Deployment
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
@@ -157,7 +161,6 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found [here](https://pimmz.github.io/Project-1)
-
 
 
 ### Local Deployment
@@ -185,6 +188,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
 A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
 
+
 #### Forking
 
 By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
@@ -194,11 +198,11 @@ You can fork this repository by using the following steps:
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
+
 ### Local VS Deployment
 
 When I first deployed the site there was a difference between the local and the deployed site. Unfortunately I didnt realise I should be documenting this differnce, so I dont have a screenshot to show you, however I will if it occurs in any of the future profects. 
 The difference I found was in the screen not filled enough around the edge. I managed to sort this by ensuring the width was set to 100% 
-
 
 
 ## Credits
