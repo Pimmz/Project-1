@@ -5,8 +5,6 @@ Return back to the [README.md](README.md) file.
 To ensure that Walkies works effectively over a number of sites and devices, I have prepared details and screenshots for you see.
 
 
-
-
 Code Validation (Ask Tim)
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
