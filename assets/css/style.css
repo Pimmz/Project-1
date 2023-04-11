@@ -18,14 +18,17 @@ nav>menu {
     color: #fff4f3;
 }
 .menu {
-    height: 40px;
+    height: auto;
     padding-top: 5px;
     padding-left: 15px;
     background: rgb(0, 0, 0, 0.9);
-    word-spacing: 20px;
+    
     font-size: 22px;
     font-family: pt serif, oswald, sans-serif;
     font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }
 footer {
     padding: 1em 0;
@@ -86,7 +89,7 @@ footer p {
     position: absolute;
 }
 #benefits {
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     width: 300px;
     height: 200px;
     padding-top: 90px;
@@ -113,8 +116,8 @@ footer p {
 }
 .column img {
     object-fit: cover;
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 300px;
+    max-width: 300px;
 }
 .row::after {
     content: "";
@@ -353,7 +356,8 @@ textarea {
         text-align: left;
     }
 }
-/* for small from 800px wide and down */
+
+
 @media screen and (max-width:800px) {
     .column {
         width: 50%;
@@ -386,9 +390,11 @@ textarea {
     }
     #benefits {
         width: 100%;
-        padding: 1em;
-        bottom: 0;
-        top: auto;
+        padding: 2em;
+        top: 410px;
+    }
+    #benefits > h3{
+        font-size: 25px;
     }
     #threedogs-image {
         width: 100%;
@@ -396,6 +402,7 @@ textarea {
         background: url('../images/dog1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: bottom;
     }
     #map {
         width: 100%;
@@ -406,7 +413,8 @@ textarea {
         background-position: center center;
     }
     .menu {
-        word-spacing: 4px;
+        word-spacing: 0px;
+        font-size: 18px;
     }
     #cover-text>h1 {
         font-size: 50px;
@@ -414,6 +422,7 @@ textarea {
         padding: 0px;
     }
     #cover-text>h3 {
+        font-size: 18px;
         letter-spacing: 0px;
         padding: 0px;
         width: 70%;
@@ -428,6 +437,10 @@ textarea {
         width: 100%;
         margin-top: 1em;
     }
+    #walking,
+    #boarding {
+        padding-top: 30px;
+    }
     #walking>h1 {
         font-size: 18px;
         letter-spacing: 0px;
@@ -438,11 +451,12 @@ textarea {
     }
     #walking>h3,
     #boarding>h3 {
-        letter-spacing: 0;
+        letter-spacing: 0px;
+        font-size: 16px;
     }
     #walking>h4,
     #boarding>h4 {
-        letter-spacing: 0;
+        letter-spacing: 0px;
     }
     #address {
         width: 320px;
@@ -456,4 +470,5 @@ textarea {
         max-width: 100%;
         object-fit: cover;
     }
+    /* for small from 350px wide and down */
 }
