@@ -1,5 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 # Walkies
 
 Welcome to Walkies! The dog walking and boarding website created to ensure dogs get the excercise and comfort they so richly deserve.
