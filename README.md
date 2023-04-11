@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Walkies
+# Walkies
 
 Welcome to Walkies! The dog walking and boarding website created to ensure dogs get the excercise and comfort they so richly deserve.
 I have created Walkies as we have a great love for dogs and have a Wired Haired Fox Terrier ourselves that we have regularly walked and trained and have found that so many dogs dont get the excercise they need due to us all having such busy lives.
@@ -9,10 +9,10 @@ My Fiance is also a big influence in me building Walkies as she has always talke
 
 Walkies has been designed so dogs of all breads can get that energy out of their bodies that can have such a distruptive behaviour around the house. It is our ultimate goal to ensure that as many dogs as possible have calm and relaxing lives, rather than being frustartaed and angry due to the lack of excercise. not to mention the improved cardiovascular fitness, lower blood pressure, stronger muscles and bones (built up by walking regularly), and decreased stress. A regular walk is vitally important for your dogs health.
 
-Heres a screenshot of the website for to see from amiresponsive [screenshot](documentation/walkies.jpg)
+Heres a screenshot of the website for to see from amiresponsive ![screenshot](documentation/walkies.jpg)
 
 
-Design Process
+## Design Process (UX)
 
 When I started the design of Walkies I wanted to ensure the site was Useful, Useable and Valuable, so that it makes the user experience informative and enjoyable. To do this I looked at the five key fundamentals;
                             
@@ -27,10 +27,10 @@ Skeleton - As before this was designed around the customer path which was gained
 Surface - I wanted the look of Walkies to be informative, clear, concise, with consistent typography and coresponding colours to help them stand out, to easily navigated with emotive pictures that helped to bring an element of fun which I believe all of our dogs give us on a daily basis.
 
 Then I sat down and roughly sketched out onto paper what the screens would look like in a desktop, mobile and tablet look 
-[screenshot](documentation/Initial-paper-design.jpg) [screenshot](documentation/Intial-paper-design1.jpg) This then gave me the basis to start creating Walkies in gitpod.
+![screenshot](documentation/Initial-paper-design.jpg) ![screenshot](documentation/Intial-paper-design1.jpg) This then gave me the basis to start creating Walkies in gitpod.
 
 
-Walkies choice of colour
+### Walkies choice of colour
 
 #fff4f3 was used for primary text.
 rgb(0,0,0,0.9) was used for primary highlights on the Navigation bar and footer
@@ -38,11 +38,11 @@ rgb(0,0,0,0.9) was used for primary highlights on the Navigation bar and footer
 #B6DCDF was used to highlight the sevices text.
 
 To help with the colour choice I used coolors https://coolors.co/generate it allowed me to put the home image in and it generated the colours used. screenshot attached
-[screenshot](documentation/colour-scheme.jpg)
+![screenshot](documentation/colour-scheme.jpg)
 
 
 
-Typography
+### Typography
 
 I looked for font on google fonts, to help me decide as it gave a better visual aid for me to see how they all looked in there different weights. After many hours trying the fonts out on Walkies I decide to keep pt serif all the way through to ensure a good balance, with a conssitent look and feel. As a back up I used oswald as it has a great look and then my third choice was sans-serif as a fall back incase the other two werent available.
 
@@ -50,7 +50,7 @@ I looked for font on google fonts, to help me decide as it gave a better visual 
 
 
 
-Icons
+## Icons
 
 To help with making Walkies as user friendly as possible I used icons from font awesome. This helped highlight specific areas to bring the user attention to it.
 
@@ -58,46 +58,46 @@ To help with making Walkies as user friendly as possible I used icons from font 
 
 
 
-Features
+## Features
 
 The following features were included on the website to ensure it was as user friendly as possible;
 
 - A consistent, clear, concise navigation bar and footer was also required to ensure existency across every web page to help the user navigate easily around the site,    
   understand abit about us, see our location and view our social media.
-  [screenshot](documentation/home-page.jpg)
+  ![screenshot](documentation/home-page.jpg)
 
 
 - Emotive images were used to help people to relate them to our business of walking their dog
-  [screenshot](documentation/colour-scheme.jpg)
+  ![screenshot](documentation/colour-scheme.jpg)
 
 
 - Benefits of walking your dog were also used to help show the real positives of regualar excercise and how vitel it is to their dogs health.
-  [screenshot](documentation/colour-scheme.jpg)
+  ![screenshot](documentation/colour-scheme.jpg)
 
 
 - The services provided by Walkies and the cost are a key part to aid customers see what service we offer and the price of them.
-  [screenshot](documentation/services-page.jpg)
+  ![screenshot](documentation/services-page.jpg)
 
 
 - How to contact us and the location we currently serve is one of the most important pieces of information, so that the customer knows exactly how to get hold of us 
   and whether or not we serve their particular area. To aid with this our address and telephone number are on the footer of every page.
-  [screenshot](documentation/contact-page.jpg)
+  ![screenshot](documentation/contact-page.jpg)
 
 
 - As constantly improving is a must for any business, I have included a feedback form for customers to provide us with information that can help improve our business, 
   regardless of whether or not they are a 
   customer. 
-  [screenshot](documentation/contact-page.jpg)
+  ![screenshot](documentation/contact-page.jpg)
 
 
 - A review section for google reviews has also been created to show reviews left by others customers to help clarify the excellent service offered by Walkies. As more  
   and more purchases are often made by the 
   reviews of other customers.
-  [screenshot](documentation/review-page.jpg)
+  ![screenshot](documentation/review-page.jpg)
 
 
 
-Future Features
+### Future Features
 
 Navigation bar
 I would love to change the navigation bar buttons in dog bones, which made a woofing sound when pressed. Just to add alittle more design and fun to the page 
@@ -119,9 +119,9 @@ I would like to add another page that showed " with owners concent " their dogs 
 
 Commit messages.
 I'm fully aware that my original commits were done incorrectly, due to the fact that I was following the method taught by the Code Institute videos. However, after having my first call with my mentor, we discussed the appropriate method to write the commit messages, and I have since changed this behaviour. The screenshot below shows the first commits that were done incorrectly.
-[screenshot](documentation/commit.jpg)
+![screenshot](documentation/commit.jpg)
 
-Tool and technologies used
+## Tool and technologies used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
@@ -141,7 +141,7 @@ Tool and technologies used
 
 
 
-Testing
+## Testing
 
 For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
@@ -149,7 +149,7 @@ For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ***********************************************************************************************************
 
-Deployment
+## Deployment
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 - In the [GitHub repository](https://github.com/Pimmz/Project-1), navigate to the Settings tab 
@@ -160,12 +160,12 @@ The live link can be found [here](https://pimmz.github.io/Project-1)
 
 
 
-Local Deployment
+### Local Deployment
 
 This project can be cloned or forked in order to make a local copy on your own system.
 
 
-Cloning
+#### Cloning
 
 You can clone the repository by following these steps:
 
@@ -196,16 +196,12 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-****************************************************************************************************************************
+When I first deployed the site there was a difference between the local and the deployed site. Unfortunately I didnt realise I should be documenting this differnce, so I dont have a screenshot to show you, however I will if it occurs in any of the future profects. 
+The difference I found was in the screen not filled enough around the edge. I managed to sort this by ensuring the width was set to 100% 
 
 
-Credits
+
+## Credits
 
 - [HTML](https://stackoverflow.com/) used to assist with styles throughout the site.
 - [HTML](https://stackoverflow.com/) used to assist with styles throughout the site.
@@ -222,7 +218,7 @@ Credits
 - Love running project at code institute
 
 
-Content
+### Content
 
 | Source | Location | Notes |
 | --- | --- | --- |
@@ -234,7 +230,7 @@ Content
 | [Loverunning](https://code.institute) | html and css related in the love running project|
 
 
-Media
+### Media
 
 
 | Source | Location | Type | Notes |
@@ -249,7 +245,7 @@ Media
 
 
 
-Acknowledgements
+### Acknowledgements
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
