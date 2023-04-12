@@ -75,13 +75,18 @@ To be completely thorough I have tested Walkies on the below devices.
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsive-4k.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
+| ipad air| ![screenshot](documentation/ipadair.jpg) | Works as expected |
+| ipad mini | ![screenshot](documentation/ipadmini.jpg) | Works as expected |
+| iphone se | ![screenshot](documentation/iphonese.jpg) | Works as expected |
+| iphone 12 pro | ![screenshot](documentation/iphone12pro.jpg) | Works as expected |
+| iphone xr | ![screenshot](documentation/iphonexr.jpg) | Works as expected |
+| Nest hub| ![screenshot](documentation/nesthub.jpg) | Works as expected |
+| Nest hub Max| ![screenshot](documentation/nesthubmax.jpg) | Works as expected |
+| Pixel 5 | ![screenshot](documentation/pixel5.jpg) | Works as expected |
+| Surface duo | ![screenshot](documentation/surfaceduo.jpg) | Works as expected |
+| Galaxy A51 / 71 | ![screenshot](documentation/galaxya51 71.jpg) | Works as expected |
+| Galaxy S8 | ![screenshot](documentation/galaxys8.jpg) | Works as expected |
+| Galaxy S20 Ultra | ![screenshot](galaxys20ultra.jpg) | Works as expected |
 | x | x | repeat for any other tested sizes |
 
 
