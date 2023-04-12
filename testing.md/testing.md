@@ -95,13 +95,15 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
-| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Few warnings |
-| About | Mobile | ![screenshot](documentation/lighthouse-about-mobile.png) | Some minor warnings |
-| About | Desktop | ![screenshot](documentation/lighthouse-about-desktop.png) | Few warnings |
-| Gallery | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
-| Gallery | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| x | x | x | repeat for any other tested pages/sizes |
+| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.jpg) | | Slow performance due to not having a effective cache policy
+| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.jpg) | Works as expected |
+| Services | Mobile | ![screenshot](documentation/lighthouse-services-mobile.jpg) | Works as expected  |
+| Services | Desktop | ![screenshot](documentation/lighthouse-services-desktop.jpg) | Works as expected |
+| Contact | Mobile | ![screenshot](documentation/lighthouse-contact-mobile.jpg) | | Slow performance due to not having a effective cache policy
+| Contact | Desktop | ![screenshot](documentation/lighthouse-contact-desktop.jpg) | Works as expected|
+| Review | Mobile | ![screenshot](documentation/lighthouse-review-mobile.jpg) | Works as expected |
+| Review | Desktop | ![screenshot](documentation/lighthouse-review-desktop.jpg) | Works as expected |
+
 
 
 
