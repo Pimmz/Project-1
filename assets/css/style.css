@@ -16,10 +16,14 @@ body {
 }
 
 /* nav bar and footer css here */
+nav a {
+    margin: 0.3em;
+}
 a,
 nav>menu {
     color: #fff4f3;
 }
+
 
 .menu {
     height: auto;
@@ -552,5 +556,10 @@ textarea {
         object-fit: cover;
     }
 
-    /* for small from 350px wide and down */
+    /* for small from 380px wide and down */
+    @media screen and (max-width:380px) {
+        nav a {
+            margin: 0em;
+        }
+    }
 }
