@@ -28,7 +28,7 @@ Surface - I wanted the look of Walkies to be informative, clear, concise, with c
 
 Then I sat down and roughly sketched out onto paper what the screens would look like in a desktop, mobile and tablet. This then gave me the basis to start creating Walkies in gitpod.
 
-![screenshot](documentation/Initial-paper-design.jpg) ![screenshot](documentation/Intial-paper-design1.jpg) 
+![screenshot](documentation/initial-paper-design.jpg) ![screenshot](documentation/intial-paper-design1.jpg) 
 
 
 ### Walkies choice of colour
@@ -47,7 +47,7 @@ To help with the colour choice I used coolors https://coolors.co/generate it all
 
 I looked for font on google fonts, to help me decide as it gave a better visual aid for me to see how they all looked in there different weights. After many hours trying the fonts out on Walkies I decide to keep pt serif all the way through to ensure a good balance, with a conssitent look and feel. As a back up I used oswald as it has a great look and then my third choice was sans-serif as a fall back incase the other two werent available.
 
-[pt serif]https://fonts.google.com/specimen/PT+Serif?query=pt+serif was used for the all the text and headers.
+[pt serif](https://fonts.google.com/specimen/PT+Serif?query=pt+serif) was used for the all the text and headers.
 
 
 
@@ -130,7 +130,6 @@ I'm fully aware that my original commits were done incorrectly, due to the fact 
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [HTML](https://stackoverflow.com/) used to assist with styles throughout the site.
 - [HTML](https://stackoverflow.com/) used to assist with styles throughout the site.
 - [CSS/HTML](https://coolors.co/generate) used to assist with the choice of colours through the site.
 
@@ -232,8 +231,7 @@ The difference I found was in the screen not filled enough around the edge. I ma
   got as part of a 7 day free trial.
 - [Images](https://images.pexels.com/photos/4587971/pexels-photo-4587971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) used to assist with picking the right photo 
   for the review page.
-- [Images](https://www.rightmove.co.uk/property-for-sale/map.html?locationIdentifier=REGION%5E1399&numberOfPropertiesPerPage=499&propertyTypes=&includeSSTC=false& 
-  viewType=MAP&mustHave=&dontShow=&furnishTypes=&keywords=&edit=true) used to highlight our catchment area in their map section
+- [Images](https://www.rightmove.co.uk/property-for-sale/map.html?locationIdentifier=REGION%5E1399&numberOfPropertiesPerPage=499&propertyTypes=&includeSSTC=falseviewType=MAP&mustHave=&dontShow=&furnishTypes=&keywords=&edit=true) used to highlight our catchment area in their map section
 
 
 
