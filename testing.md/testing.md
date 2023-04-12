@@ -60,12 +60,12 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
 | Chrome Desktop| ![screenshot](documentation/chrome-desktop.jpg) | Works as expected |
-| Chrome Tablet| ![screenshot] (documentation/chrome-tablet.jpg) | Works as expected |
-| Chrome Mobile ![screenshot] (documentation/chrome-mobile.jpg) | Works as expected |
+| Chrome Tablet| ![screenshot](documentation/chrome-tablet.jpg) | Works as expected |
+| Chrome Mobile ![screenshot](documentation/chrome-mobile.jpg) | Works as expected |
 
-| Firefox Desktop| ![screenshot] (documentation/firefox-desktop.jpg) | Works as expected |
-| Firefox Tablet| ![screenshot] (documentation/firefox-tablet.jpg) | Works as expected |
-| Firefox Mobile| ![screenshot] (documentation/firefox-mobile.jpg) | Works as expected |
+| Firefox Desktop| ![screenshot](documentation/firefox-desktop.jpg) | Works as expected |
+| Firefox Tablet| ![screenshot](documentation/firefox-tablet.jpg) | Works as expected |
+| Firefox Mobile| ![screenshot](documentation/firefox-mobile.jpg) | Works as expected |
 
 | Safari Desktop| ![screenshot](documentation/ Put screen shot here) | Works as expected |
 | Safari tablet| ![screenshot](documentation/ Put screen shot here) | Works as expected |
@@ -84,11 +84,9 @@ To be completely thorough I have tested Walkies on the below devices.
 | Nest hub Max| ![screenshot](documentation/nesthubmax.jpg) | Works as expected |
 | Pixel 5 | ![screenshot](documentation/pixel5.jpg) | Works as expected |
 | Surface duo | ![screenshot](documentation/surfaceduo.jpg) | Works as expected |
-| Galaxy A51 / 71 | ![screenshot](documentation/galaxya51 71.jpg) | Works as expected |
+| Galaxy A51 / 71 | ![screenshot](documentation/galaxya51-71.jpg) | Works as expected |
 | Galaxy S8 | ![screenshot](documentation/galaxys8.jpg) | Works as expected |
 | Galaxy S20 Ultra | ![screenshot](galaxys20ultra.jpg) | Works as expected |
-| x | x | repeat for any other tested sizes |
-
 
 
 Lighthouse Audit
