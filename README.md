@@ -38,7 +38,7 @@ rgb(0,0,0,0.9) was used for primary highlights on the Navigation bar and footer
 #dfdfdf was used as a secondary highlight to help text stand out 
 #B6DCDF was used to highlight the sevices text.
 
-To help with the colour choice I used coolors https://coolors.co/generate it allowed me to put the home image in and it generated the colours used. screenshot attached
+To help with the colour choice I used coolors https://coolors.co/generate it allowed me to put the home image in and it generated the colours used. Please follow the link to coolors https://coolors.co/000009-dfdfdf-fff4f3-b6dcdf. Screenshot also attached incase the link dosent load;
 
 ![screenshot](documentation/colour-scheme.jpg)
 
@@ -125,7 +125,6 @@ I'm fully aware that my original commits were done incorrectly, due to the fact 
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [HTML](https://www.w3schools.com/css/css3_variables.asp) used to assist with code throughout the site.
 - [CSS](https://www.w3schools.com/css/css3_variables.asp) used to assist with styles throughout the site.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
@@ -134,10 +133,6 @@ I'm fully aware that my original commits were done incorrectly, due to the fact 
 - [HTML](https://stackoverflow.com/) used to assist with styles throughout the site.
 - [HTML](https://stackoverflow.com/) used to assist with styles throughout the site.
 - [CSS/HTML](https://coolors.co/generate) used to assist with the choice of colours through the site.
-- [Images](https://www.pexels.com/) used to assist with picking the right photo for the Home page.
-- [Images](https://www.shutterstock.com) used to assist with picking the right photo for the services page.
-- [Images](https://www.pexels.com/) used to assist with picking the right photo for the review page.
-- [Images](https://www.rightmove.co.uk/) used to highlight our catchment area in their map section
 
 
 
