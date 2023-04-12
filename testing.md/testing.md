@@ -2,22 +2,10 @@ Walkies Testing
 
 Return back to the [README.md](README.md) file.
 
-To ensure that Walkies works effectively over a number of sites and devices, I have prepared details and screenshots for you see.
+To ensure that Walkies works effectively over a number of sites and devices, I have prepared details and screenshots for you see the testing I have done to ensure it is very reliable..
 
 
-Code Validation (Ask Tim)
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
-
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
+Code Validation
 
 
 HTML Validation
@@ -31,33 +19,28 @@ Below is a link for you too see live that my code is valid plus I have enlocsed 
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Findex.html) ![screenshot](documentation/W3validator-homescreen.jpg)|
 
-| Services | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fservices.html) ![screenshot](documentation/W3validator-reviewscreen.jpg) 
+| Services | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fservices.html) ![screenshot](documentation/W3validator-servicesscreen.jpg) 
 
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fcontact.html) | ![screenshot](documentation/W3validator-reviewscreen.jpg}
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Fcontact.html) | ![screenshot](documentation/W3validator-contactscreen.jpg) 
 
-| Review | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Freviews.html) | ![screenshot](documentation/W3validator-reviewscreen.jpg}
+| Review | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FPimmz.github.io%2FProject-1%2Freviews.html) | ![screenshot](documentation/W3validator-reviewscreen.jpg) 
 
 |  Errors |
-| Add Blog | n/a | |
-| Checkout | n/a | ![screenshot](documentation/html-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining HTML files |
+| Add Blog | n/a | Pass: No Errors 
+| Checkout | n/a | Pass: No Errors 
 
 
 
 CSS Validation
 
-Below is a link for you too see live that my code is valid plus I have enlocsed a screenshot in case for some reason that fails;
+Below is a link for you too see live that my code is valid plus I have enclosed a screenshot in case for some reason that fails;
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FPimmz.github.io%2FProject-1) [screenshot](documentation/  put screenshot here jpg)|
+| Home | [W3C](- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FPimmz.github.io%2FProject-1) ![screenshot](documentation/css-validation.jpg)|
 
 Error
 [screenshot](documentation/css-error.jpg) px was missing on line 288 and 292, now fixed
-
-
-If you have multiple CSS files, then individual [validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)
-is recommended for the additional CSS files.
 
 
 
@@ -76,17 +59,17 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome Desktop| [screenshot](documentation/ Put screen shot here) ) | Works as expected |
-| Chrome Tablet|
-| Chrome Mobile
+| Chrome Desktop| ![screenshot](documentation/chrome-desktop.jpg) | Works as expected |
+| Chrome Tablet| ![screenshot] (documentation/chrome-tablet.jpg) | Works as expected |
+| Chrome Mobile ![screenshot] (documentation/chrome-mobile.jpg) | Works as expected |
 
-| Firefox Desktop| [screenshot](documentation/ Put screen shot here)  | Works as expected |
-| Firefox Tablet|
-| Firefox Mobile|
+| Firefox Desktop| ![screenshot] (documentation/firefox-desktop.jpg) | Works as expected |
+| Firefox Tablet| ![screenshot] (documentation/firefox-tablet.jpg) | Works as expected |
+| Firefox Mobile| ![screenshot] (documentation/firefox-mobile.jpg) | Works as expected |
 
-| Safari Desktop| [screenshot](documentation/ Put screen shot here) |
-| Safari Desktop|
-| Safari Desktop|
+| Safari Desktop| ![screenshot](documentation/ Put screen shot here) | Works as expected |
+| Safari tablet| ![screenshot](documentation/ Put screen shot here) | Works as expected |
+| Safari Mobile| ![screenshot](documentation/ Put screen shot here) | Works as expected |
 
 To be completely thorough I have tested Walkies on the below devices.
 
